@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\Telegram\Traits;
+namespace Vance\LaravelNotificationTelegram\Traits;
 
 use Illuminate\Support\Traits\Conditionable;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace NotificationChannels\Telegram;
+namespace Vance\LaravelNotificationTelegram;
 
 use Illuminate\Support\Facades\View;
 use JsonSerializable;
-use NotificationChannels\Telegram\Traits\HasSharedLogic;
+use Vance\LaravelNotificationTelegram\Traits\HasSharedLogic;
 
 /**
  * Class TelegramMessage.

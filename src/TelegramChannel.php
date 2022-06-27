@@ -1,11 +1,11 @@
 <?php
 
-namespace NotificationChannels\Telegram;
+namespace Vance\LaravelNotificationTelegram;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Notifications\Events\NotificationFailed;
 use Illuminate\Notifications\Notification;
-use NotificationChannels\Telegram\Exceptions\CouldNotSendNotification;
+use Vance\LaravelNotificationTelegram\Exceptions\CouldNotSendNotification;
 
 /**
  * Class TelegramChannel.
@@ -23,7 +23,9 @@ class TelegramChannel
     private $dispatcher;
 
     /**
-     * Channel constructor.
+     * TelegramChannel constructor.
+     * @param Telegram $telegram
+     * @param Dispatcher $dispatcher
      */
     public function __construct(Telegram $telegram, Dispatcher $dispatcher)
     {

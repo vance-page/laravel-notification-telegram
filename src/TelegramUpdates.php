@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\Telegram;
+namespace Vance\LaravelNotificationTelegram;
 
 /**
  * Class TelegramUpdates.

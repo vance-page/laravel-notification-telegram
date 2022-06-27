@@ -1,12 +1,12 @@
 <?php
 
-namespace NotificationChannels\Telegram;
+namespace Vance\LaravelNotificationTelegram;
 
 use Exception;
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Str;
-use NotificationChannels\Telegram\Exceptions\CouldNotSendNotification;
+use Vance\LaravelNotificationTelegram\Exceptions\CouldNotSendNotification;
 use Psr\Http\Message\ResponseInterface;
 
 /**

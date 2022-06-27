@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\Telegram\Exceptions;
+namespace Vance\LaravelNotificationTelegram\Exceptions;
 
 use Exception;
 use GuzzleHttp\Exception\ClientException;

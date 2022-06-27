@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\Telegram;
+namespace Vance\LaravelNotificationTelegram;
 
 use GuzzleHttp\Client as HttpClient;
 use Illuminate\Notifications\ChannelManager;
